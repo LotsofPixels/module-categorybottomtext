@@ -7,7 +7,8 @@
     "magento/framework": "*"
   },
   "license": [
-    "Proprietary"
+    "OSL-3.0",
+    "AFL-3.0"
   ],
   "autoload": {
     "files": [
@@ -19,6 +20,6 @@
   },
     "author": "Rene Donkers",
     "createAt": "01-10-2023",
-    "homepage": "Lotsofpixels.io"
+    "homepage": "https://www.lotsofpixels.io"
 
 }

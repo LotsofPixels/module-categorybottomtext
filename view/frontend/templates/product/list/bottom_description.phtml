@@ -1,0 +1,9 @@
+<?php
+/* @var Magento\Catalog\Block\Category\View $block */
+/* Copyright &copy; LotsofPixels.io, Inc. All rights reserved. */
+?>
+<?php if ($_bottomDescription = $block->getCurrentCategory()->getBottomDescription()): ?>
+    <div class="category-bottom-description">
+        <?= /* @escapeNotVerified */ $this->helper('Magento\Catalog\Helper\Output')->categoryAttribute($block->getCurrentCategory(), $_bottomDescription, 'bottom_description') ?>
+    </div>
+<?php endif; ?>

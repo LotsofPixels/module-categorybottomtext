@@ -1,6 +1,6 @@
 {
   "name": "lotsofpixels/module-categorybottomtext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds a text field at the bottom of the category pagen for SEO purposes",
   "type": "magento2-module",
   "require": {

@@ -5,7 +5,7 @@
 
 declare(strict_types=1);
 
-namespace LotsofPixels\CategoryBottomText\Setup\Patch\Data;
+namespace Lotsofpixels\CategoryBottomText\Setup\Patch\Data;
 
 use Magento\Eav\Model\Entity\Attribute\ScopedAttributeInterface;
 use Magento\Eav\Setup\EavSetup;

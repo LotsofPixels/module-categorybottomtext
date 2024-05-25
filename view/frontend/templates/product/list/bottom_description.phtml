@@ -1,9 +1,12 @@
 <?php
+
 /* @var Magento\Catalog\Block\Category\View $block */
-/* Copyright &copy; LotsofPixels.io, Inc. All rights reserved. */
+
+use Magento\Catalog\Helper\Output;
+
 ?>
-<?php if ($_bottomDescription = $block->getCurrentCategory()->getBottomDescription()): ?>
+<?php if ($_bottomDescription = $block->getCurrentCategory()->getData('bottom_description')): ?>
     <div class="category-bottom-description">
-        <?= /* @escapeNotVerified */ $this->helper('Magento\Catalog\Helper\Output')->categoryAttribute($block->getCurrentCategory(), $_bottomDescription, 'bottom_description') ?>
+        <?= /* @escapeNotVerified */ $this->helper(Output::class)->categoryAttribute($block->getCurrentCategory(), $_bottomDescription, 'bottom_description') ?>
     </div>
 <?php endif; ?>

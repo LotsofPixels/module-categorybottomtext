@@ -1,14 +1,13 @@
 {
   "name": "lotsofpixels/module-categorybottomtext",
-  "version": "1.0.1",
-  "description": "Adds a text field at the bottom of the category pagen for SEO purposes",
+  "version": "1.0.2",
+  "description": "Adds a text field at the bottom of the category page (PLP) for SEO purposes",
   "type": "magento2-module",
   "require": {
     "magento/framework": "*"
   },
   "license": [
-    "OSL-3.0",
-    "AFL-3.0"
+    "MIT"
   ],
   "autoload": {
     "files": [
@@ -21,5 +20,4 @@
     "author": "Rene Donkers",
     "createAt": "01-10-2023",
     "homepage": "https://www.lotsofpixels.io"
-
 }
